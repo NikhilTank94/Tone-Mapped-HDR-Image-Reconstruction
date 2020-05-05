@@ -1,0 +1,15 @@
+% img1 = imread('ppw - 01.tif');
+% img1 = imresize(img1, 0.25);
+img2 = imread('ppw - 02.jpg');
+img2 = imcrop(img2, [0 0 1200 800]);
+% img3 = imread('ppw - 03.tif');
+% img3 = imresize(img3, 0.25);
+% img4 = imread('ppw - 04.tif');
+% img4 = imresize(img4, 0.25);
+% img5 = imread('ppw - 05.tif');
+% img5 = imresize(img5, 0.25);
+% img6 = imread('ppw - 06.tif');
+% img6 = imresize(img6, 0.25);
+% imwrite(img4,'ppw - 04.tif');imwrite(img5,'ppw - 05.tif');imwrite(img6,'ppw - 06.tif');;imwrite(img1,'ppw - 01.tif');
+imwrite(img2,'ppw - 02.jpg');
+% imwrite(img3,'ppw - 03.tif');
